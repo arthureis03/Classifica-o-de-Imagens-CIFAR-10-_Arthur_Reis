@@ -5,10 +5,10 @@ import numpy as np
 from PIL import Image
 import io
 
-# Carregar o modelo treinado
+# Carregamento o modelo treinado
 model = load_model('cifar10_model.h5')
 
-# Definir as classes
+# Definição as classes
 class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
 
 app = Flask(__name__)
